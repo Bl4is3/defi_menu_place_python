@@ -9,15 +9,11 @@ class Controller:
         while True:
             if choix == "1":
                 choix = self.view.show_menu_1()
-            elif choix == "11":
-                choix = self.view.show_menu_11()
-            elif choix in ("111", "112"):
+            elif choix in ("11", "111", "112"):
                 choix = self.view.show_menu_11()
             elif choix == "113":
                 choix = self.view.show_menu_1()
-            elif choix == "12":
-                choix = self.view.show_menu_12()
-            elif choix in ("121", "122"):
+            elif choix in ("12", "121", "122"):
                 choix = self.view.show_menu_12()
             elif choix == "123":
                 choix = self.view.show_menu_2()
